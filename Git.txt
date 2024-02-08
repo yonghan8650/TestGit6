@@ -26,3 +26,10 @@ git : 분산버전 관리 시스템(형상관리 시스템)
 git config --global user.email "yonghankim97@gmail.com"
 git config --global user.name "yonghan8650"
 
+> git commit -m "저장하는 메세지(작업내용)" : 깃을 사용해서 정보를 저장
+> git log
+> git log --oneline --all --graph
+> git checkout 7100df0 Git.txt
+> git checkout master
+
+
