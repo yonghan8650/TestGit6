@@ -1,0 +1,28 @@
+사용자 설정 - 토큰생성 - repo만 체크
+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 (2/8 90일)
+메인페이지 progit책 읽어보기
+
+git다운로드 전부default
+github : 웹을 사용한 분산 버전관리 서비스
+git : 분산버전 관리 시스템(형상관리 시스템)
+
+* git은 폴더(디렉터리) 단위로 해당 파일을 관리
+ => 특정 폴더, 정보를 저장하는 저장소(repository) 설정
+
+
+* untracked 상태 : git이 관리 대상에서 제외한 상태(파일)
+  tracked 상태 : git이 관리 대상으로 설정한 상태(파일)
+
+ ( tracked 상태 이후 확인 가능 )
+ unstaged 상태 : 관리 대상이기는 하나 아직 이력상태를 저장하지 않은경우(제외된 경우)
+ staged 상태 : 관리 대상이면서 이력상태를 저장한 경우 (commit)
+
+* 저장소(repository) 생성 
+> git init : 저장소 생성
+> git status : 상태 확인
+> git add :  파일 상태를 tracked로 변경
+> 깃에 사용자 정보를 등록
+
+git config --global user.email "yonghankim97@gmail.com"
+git config --global user.name "yonghan8650"
+
