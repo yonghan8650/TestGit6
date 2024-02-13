@@ -46,14 +46,16 @@ git config --global user.name "yonghan8650"
 
 
 로컬-원격 저장소 연결
-> git remote add origin https://github.com/yonghan8650/TestGit6.git
-> git push origin master
-
 
 Q. 테스트 작업 중 (커밋 메세지 생성)
 
+* 원격 저장소를 추가
+ git remote add origin 깃허브주소 (https://github.com/yonghan8650/TestGit6.git)
 
+* 원격 저장소로 정보를 전달
+ git push origin master
 
+ origin : 원격 저장소를 부르는 이름
 
 
 
